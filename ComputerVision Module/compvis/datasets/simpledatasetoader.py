@@ -11,7 +11,7 @@ class SimpleDatasetLoader:
     """Simple dataset load. This class load your data from disk.
     Argument:
             preprocessor: list of callable image preprocessor (resize, image_to_array etc...).
-            If any preprocessor function is called, it will be applyed to the image to be returned.
+            If any preprocessor function is called, it will be applied to the loaded image.
     """
     def __init__(self, preprocessors=None):
         # defining local variables
