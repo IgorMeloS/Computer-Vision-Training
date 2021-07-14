@@ -1,1 +1,1 @@
-from .neuralnetwork import NeuralNetwork
+from .neuralnetwork import ANN
