@@ -41,19 +41,19 @@ class ANN:
         ds = x*(1 - x)
         return ds
     # Defining the training function - Fit function
-    def fit(self, X, y, epochs = 100, verbose = 100):
+    def fit(self, X, y, epochs = 100, verbose = 1):
         """Fit function to train the ANN.
         Args:
             X: feature matrix
             y: label matrix
             epochs: total number of epochs
-            verbose: Interger number or None. The interger number is the interval to displays informations about the training. 
+            verbose: Interger number or None, by default 1. The interger number is the interval to displays informations about the training. 
             If None, there is no display information.
             
         """
         
         X = np.c_[X, np.ones((X.shape[0]))]
-        
+        print("[INFO] Training the model")
         for epoch in np.arange(0, epochs):
             
             for (x, target) in zip(X, y):
@@ -61,7 +61,7 @@ class ANN:
             if verbose is not None:
                 if epoch == 0 or (epoch + 1) % verbose == 0:
                     loss = self.calculate_loss(X, y)
-                    print("[INFO] epoch {}, loss: {:.7f}".format(epoch +1, loss))
+                    print("epoch {}, loss: {:.7f}".format(epoch +1, loss))
     # Definng the derivate of the loss function
     def fit_partial(self, x, y):
         
