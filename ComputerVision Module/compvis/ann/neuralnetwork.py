@@ -8,7 +8,8 @@ import numpy as np
 class ANN:
     """Artifical Neural Network building with numpy.
     Args:
-        layers: number of layers to compose the ANN
+        layers: list of layers to compose the ANN. For example, [128, 64, 3]. List with three layers, 
+        the first with 128 neurons, the second with 64 and, the last is the output layer with 3 neurons.
         alpha: the step size to the weight regularization, 0.1 by defaut.
     """
     def __init__(self, layers, alpha=0.1):
@@ -40,13 +41,14 @@ class ANN:
         ds = x*(1 - x)
         return ds
     # Defining the training function - Fit function
-    def fit(self, X, y, epochs = 100, displayUpdate = 100):
+    def fit(self, X, y, epochs = 100, verbose = 100):
         """Fit function to train the ANN.
         Args:
             X: feature matrix
             y: label matrix
-            epochs: deseride number of epochs
-            display update: the interval to display informations.
+            epochs: total number of epochs
+            verbose: Interger number or None. The interger number is the interval to displays informations about the training. 
+            If None, there is no display information.
             
         """
         
@@ -56,10 +58,10 @@ class ANN:
             
             for (x, target) in zip(X, y):
                 self.fit_partial(x, target)
-            
-            if epoch == 0 or (epoch + 1) % displayUpdate == 0:
-                loss = self.calculate_loss(X, y)
-                print("[INFO] epoch={}, loss={:.7f}".format(epoch +1, loss))
+            if verbose is not None:
+                if epoch == 0 or (epoch + 1) % verbose == 0:
+                    loss = self.calculate_loss(X, y)
+                    print("[INFO] epoch {}, loss: {:.7f}".format(epoch +1, loss))
     # Definng the derivate of the loss function
     def fit_partial(self, x, y):
         
