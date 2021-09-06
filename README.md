@@ -21,9 +21,11 @@ Along the project, I cite the papers that refers models or techniques, in the pr
 
 - [PyImageSearch](https://www.pyimagesearch.com/) offers to us free examples for real applications in computer vision. There’s also the possibility to purchase full coursers (we can download them, even if it's not cool, but here is the web. We found sources everywhere. If you can to purchase, it's always even better).
 
+- [Learn OpenCV](https://learnopencv.com/) website specialized about OpenCV.
+- 
 - [Nicholas Renotte](https://www.youtube.com/c/NicholasRenotte), great YouTube channel with examples and advices, one of the best.
 
-- [Machine Learning Mastery](https://machinelearningmastery.com/blog/) is  an excellent website that proposes several practical examples for Machine Learning projects in your blog. The website offers also books about many subjects in Artificial Intelligence (if you can buy it, is better.)
+- [Machine Learning Mastery](https://machinelearningmastery.com/blog/) is  an excellent website that proposes several practical examples for Machine Learning projects in your blog. The website offers also books about many subjects in Artificial Intelligence (if you can buy it, is better than grab a copy).
 
 - [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp) YouTube channel with code examples about technical courses.
 
