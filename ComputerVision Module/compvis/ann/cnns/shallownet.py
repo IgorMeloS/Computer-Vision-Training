@@ -4,19 +4,19 @@
 
 # Importing Libraries
 import tensorflow as tf
-from tf.keras.models import Sequential
-from tf.keras.layers.convolutional import Conv2D
-from tf.keras.layers.core import Activation
-from tf.keras.layers.core import Flatten
-from tf.keras.layers.core import Dense
-from tf.keras import backend as K
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
+from tensorflow.keras import backend as K
 
 
 class ShallowNet:
-    @staticmethod
     """ShallowNet architecture is a simple convolutional neural network, composed by one convolutional layer that contains 32
     filters with 3x3 kernel.
     """
+    @staticmethod
     def build(width, height, depth, classes):
         """build function. This function build the shallownet architecture.
         Args:
