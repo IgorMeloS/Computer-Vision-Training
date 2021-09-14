@@ -1,6 +1,6 @@
 # Computer Vision Training
 
-This project is a part of my personal training in Computer Vision. Here, we can find two folders, Computer Vision Module (compvis) and OpenCV. The compvis module is a pipeline build any model practically. It’s covered in the module several CNN architectures, and also, some skills for image data load and preprocessing (this module is based on the [PyImageSearch](https://www.pyimagesearch.com/) module).
+This project is a part of my personal training in Computer Vision. Here, we can find two folders, Computer Vision Module (compvis) and OpenCV. The compvis module is a pipeline build any model practically. It’s covered in the module several CNN architectures, and also, some skills for image data load and preprocessing (this module is based on the [PyImageSearch](https://www.pyimagesearch.com/) module, all credits are to the author, even if I did modifications).
 
 The OpenCV folder contains some important skills for computer vision tasks. The OpenCV library is mandatory to computer vision (CV), being the most popular free library for CV. From the image preprocessing to the model applications, OpenCV offers to us straightforward and practical tools.
 
