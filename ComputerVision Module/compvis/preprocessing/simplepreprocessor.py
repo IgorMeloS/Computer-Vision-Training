@@ -2,6 +2,7 @@
 # Simple image preprocess
 # Class SimplePreprocessor
 # Atribute preprocess - resizes image ignoring the aspect ratio
+# https://docs.opencv.org/master/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d
 # =============================================================================
 
 import cv2 as cv

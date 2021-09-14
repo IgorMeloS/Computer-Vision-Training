@@ -1,0 +1,2 @@
+from .shallownet import ShallowNet
+
