@@ -27,10 +27,12 @@ Inside each folder, we find the files for the examples
 
 1 - [Simple Image Classifier](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/1%20-%20Simple%20Image%20Classifier)
   - [simple_image_classifier.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/1%20-%20Simple%20Image%20Classifier/simple_image_classifier.ipynb)
+  
 2 - [ANN Image Classifier](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/2%20-%20ANN_Image_Classifier)
   - [ann_animals.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/2%20-%20ANN_Image_Classifier/ann_animals.ipynb)
   - [ann_mnist.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/2%20-%20ANN_Image_Classifier/ann_mnist.ipynb)
   - [cifar10_ann.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/2%20-%20ANN_Image_Classifier/cifar10_ann.ipynb)
+  
 3 - [Simple CNN - ShallowNet](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/3%20-%20Simple%20CNN)
   - [Animals_shallownet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/3%20-%20Simple%20CNN/Aninals_shallownet.ipynb)
   - [CIFAR10_shallownet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/3%20-%20Simple%20CNN/CIFAR10_shallownet.ipynb)
