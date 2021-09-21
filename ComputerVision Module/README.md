@@ -1,5 +1,3 @@
-# Computer Vision Module (compvis)
-
 # Computer Vision Module (compvis) from PyImageSearch
 
 The compvis module is inspired by the PyImageSearch module. I've grabbed some repositories ([1](https://github.com/Sid2697/pyimage-Learning), [2](https://github.com/meizhoubao/pyimagesearch) and [3](https://github.com/dloperab/PyImageSearch-CV-DL-CrashCourse)) as example and several instruction on the [website](https://www.pyimagesearch.com/). I gathered all the information obtained to train. During this process, I've decided to edit the module name, sub module and some codes. However, I emphasize once again the author's credits.
