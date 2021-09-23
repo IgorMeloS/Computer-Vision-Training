@@ -20,7 +20,7 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
     - [cnns](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann/cnns) sub-sub-module
       - [ShallowNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/shallownet.py) class
       - [LeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/lenet.py) class
-      - [MiniVGG]
+      - [MiniVGG](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/minivgg.py) class
 
 
 ## The Practical Examples
@@ -49,3 +49,8 @@ Image classification using Convolution Neural Network, specifically ShallowNet a
 
 Image classification using the LeNet architecture on the MNIST (28x28) dataset. The obtained accuracy was 98% without over-fit.
   -[lenet_mnist.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/4%20-%20LeNet%20on%20MNIST/lenet_mnist.ipynb)
+
+5 - [MiniVGG on CIFAR10](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/5%20-%20MiniVGG%20on%20CIFAR10)
+
+Image classifications using the Mini VGG architecture on the CIFAR10 dataset. In this example some regularization techniques was implemented. The accuracy for this model was 80% on the test set.
+  - [] 
