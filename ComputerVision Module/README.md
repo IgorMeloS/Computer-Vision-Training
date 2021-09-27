@@ -53,3 +53,8 @@ Image classification using the LeNet architecture on the MNIST (28x28) dataset. 
 
 Image classifications using the Mini VGG architecture on the CIFAR10 dataset. In this example some regularization techniques was implemented. The accuracy for this model was 80% on the test set.
   - [minivgg_cifar10.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/5%20-%20MiniVGG%20on%20CIFAR10/minivgg_cifar10.ipynb)
+
+6 - [Learning Rate Scheduler](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/6%20-%20Learning%20%20Rate%20Schedulers)
+
+Image classification using MiniVGG architecture on the CIFAR10. In this example, we consider the Learning Rate Scheduler from TensorFlow, passing a piecewise function to change the learn rate every 5 epochs. The best result have 79% of accuracy. This result is a little bit smaller than the previous example, on other hand, the overfit was reduced.
+  - [leaning_rate.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/6%20-%20Learning%20%20Rate%20Schedulers/learning_rate.ipynb)
