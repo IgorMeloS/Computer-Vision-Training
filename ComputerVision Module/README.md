@@ -1,4 +1,4 @@
-# Computer Vision Module (compvis) from PyImageSearch
+# Computer Vision Module (compvis) based on PyImageSearch
 
 The compvis module is inspired by the PyImageSearch module. I've grabbed some repositories ([1](https://github.com/Sid2697/pyimage-Learning), [2](https://github.com/meizhoubao/pyimagesearch) and [3](https://github.com/dloperab/PyImageSearch-CV-DL-CrashCourse)) as example and several instruction on the [website](https://www.pyimagesearch.com/). I gathered all the information obtained to train. During this process, I've decided to edit the module name, sub module and some codes. However, I emphasize once again the author's credits.
 
@@ -12,6 +12,7 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
     - [SimpleDatasetLoader](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/datasets/simpledatasetoader.py) class
 
   - [preprocessing](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/preprocessing) sub-module
+    - [ResizeAR](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/resizear.py) class
     - [ImageToArrayPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/imagetoarraypreprocessor.py) class
     - [SimplePreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/simplepreprocessor.py) class
 
@@ -58,3 +59,8 @@ Image classifications using the Mini VGG architecture on the CIFAR10 dataset. In
 
 Image classification using MiniVGG architecture on the CIFAR10. In this example, we consider the Learning Rate Scheduler from TensorFlow, passing a piecewise function to change the learn rate every 5 epochs. The best result have 79% of accuracy. This result is a little bit smaller than the previous example, on other hand, the overfit was reduced.
   - [leaning_rate.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/6%20-%20Learning%20%20Rate%20Schedulers/learning_rate.ipynb)
+
+7 - [DataAugumentation  and aspect ratio](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/7%20-%20DataAugumentation%20%20and%20aspect%20ratio)
+
+Image classification using Mini VGG network on Animals dataset. In this example, was considered Data Augmentation regularization, to the image preprocessing, we've resized all the images maintaining the aspect ratio. The accuracy was 74% without overfit.
+  - 
