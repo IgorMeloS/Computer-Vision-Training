@@ -63,4 +63,4 @@ Image classification using MiniVGG architecture on the CIFAR10. In this example,
 7 - [DataAugumentation  and aspect ratio](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/7%20-%20DataAugumentation%20%20and%20aspect%20ratio)
 
 Image classification using Mini VGG network on Animals dataset. In this example, was considered Data Augmentation regularization, to the image preprocessing, we've resized all the images maintaining the aspect ratio. The accuracy was 74% without overfit.
-  - 
+  - [animals_data_augmentation.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/7%20-%20DataAugumentation%20%20and%20aspect%20ratio/animals_data_augmentation.ipynb)
