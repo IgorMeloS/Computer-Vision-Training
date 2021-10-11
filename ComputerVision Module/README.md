@@ -8,20 +8,23 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
 
 - [compvis](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis) module
 
-  - [datsets](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/datasets) sub-module
-    - [SimpleDatasetLoader](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/datasets/simpledatasetoader.py) class
-
-  - [preprocessing](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/preprocessing) sub-module
-    - [ResizeAR](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/resizear.py) class
-    - [ImageToArrayPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/imagetoarraypreprocessor.py) class
-    - [SimplePreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/simplepreprocessor.py) class
-
   - [ann](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann) sub-module
     - [ANN](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/neuralnetwork.py) class
     - [cnns](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann/cnns) sub-sub-module
       - [ShallowNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/shallownet.py) class
       - [LeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/lenet.py) class
       - [MiniVGG](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/minivgg.py) class
+
+  - [datsets](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/datasets) sub-module
+    - [SimpleDatasetLoader](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/datasets/simpledatasetoader.py) class
+
+  - [io](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/io) sub-module
+    - [HDF5DatasetWriter](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/io/hdf5datasetwriter.py) class
+
+  - [preprocessing](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/preprocessing) sub-module
+    - [ResizeAR](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/resizear.py) class
+    - [ImageToArrayPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/imagetoarraypreprocessor.py) class
+    - [SimplePreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/simplepreprocessor.py) class
 
 
 ## The Practical Examples
@@ -64,3 +67,9 @@ Image classification using MiniVGG architecture on the CIFAR10. In this example,
 
 Image classification using Mini VGG network on Animals dataset. In this example, was considered Data Augmentation regularization, to the image preprocessing, we've resized all the images maintaining the aspect ratio. The accuracy was 74% without overfit.
   - [animals_data_augmentation.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/7%20-%20DataAugumentation%20%20and%20aspect%20ratio/animals_data_augmentation.ipynb)
+
+8 - [8 - Feature extraction and HDF5 file](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file)
+
+Image classification using transfer learning. We consider the Feature Extraction using the convolutional (the boby of the network) layers from the VGG16 pre-trained model. To store all obtained features, we utilize a dataset writer outputting a HDF5 file. To realize the classification, we consider the Logistic Regression Model from Scikit-Learn.  The accuracy obtained for the Animals dataset on the test set was 99%, our best result until now. For the 17 Flowers the accuracy was 92%.
+  - [feature_extr_hdf5_VGG16_17flowers.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file/feature_extr_hdf5_VGG16_17flowers.ipynb)
+  - [feature_extr_hdf5_VGG16_animals.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file/feature_extr_hdf5_VGG16_animals.ipynb)
