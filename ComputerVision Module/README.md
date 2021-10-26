@@ -80,3 +80,13 @@ Image classification using transfer learning. We consider the Feature Extraction
 Image classification using transfer learning. We consider the fine-tuning method using a VGG16 pre-trained model. The training process is made in two step. The first step is the feature extraction and classification made by a defined head function, in this moment the weights from VGG16 are not tweaked. The second step the head function communicates with some layer from the body, realizing the fine-tuning over the weights from the pre-trained model. We've considered the 17 Flowers dataset, the accuracy was 95%, a considerable increase. On the other hand, the model seems in over-fit.
   - [finetune.py](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/9%20-%20Transfer%20Learning%20with%20Fine%20Tuning/finetune.py)
   - [test_model.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/9%20-%20Transfer%20Learning%20with%20Fine%20Tuning/test_model.ipynb)
+
+10 - [Dos vs Cats dataset with AlexNet and transfer learning](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats)
+
+Using HDF5 datawriter and generator to manege the dataset.Implementation of AlexNet architecture, training the classification model on Dog vs Cats dataset from Kaggle. Rank-1: 94.08% with crop method on the test set. Using feature extraction with ResNet50, we obtain 0.9856 as accuracy score. The classification model was trained with 2500 images, just 10% of the original training set.
+
+  - [data_building.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/data_building.ipynb)
+  - [training_alexnet.py](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/training_alexnet.py)
+  - [testing_alexnet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/testing_alexnet.ipynb)
+  - [features_extraction.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/features_extraction.ipynb)
+  - [training_on_features.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/training_on_features.ipynb)
