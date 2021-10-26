@@ -13,17 +13,24 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
 
   - [io](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/io) sub-module
     - [HDF5DatasetWriter](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/io/hdf5datasetwriter.py) class
+    - [HDF5DatasetGenerator](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/io/hdf5datasetgenerator.py) class
 
   - [nn](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann) sub-module
     - [ANN](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/neuralnetwork.py) class
     - [cnns](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann/cnns) sub-sub-module
+      - [AlexNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/alexNet.py) class
       - [FCHeadNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/fcheadnet.py) class
       - [LeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/lenet.py) class
       - [MiniVGG](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/minivgg.py) class
       - [ShallowNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/shallownet.py) class
+    - [lr](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/nn/lr) sub-module
+      - [LRFunc](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/lr/learning_rate_functions.py) class
 
   - [preprocessing](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/preprocessing) sub-module
+    - [CropPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/croppreprocessor.py) class
     - [ImageToArrayPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/imagetoarraypreprocessor.py) class
+    - [MeanPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/meanpreprocessor.py) class
+    - [PatchPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/patchpreprocessor.py) class
     - [ResizeAR](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/resizear.py) class
     - [SimplePreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/simplepreprocessor.py) class
 
