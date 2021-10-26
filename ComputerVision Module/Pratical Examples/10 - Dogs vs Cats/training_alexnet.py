@@ -31,20 +31,6 @@ config_gpu.log_device_placement = True  # to log device placement (on which devi
 sess = tf.compat.v1.Session(config=config_gpu)
 set_session(sess)
 
-# def limitgpu(maxmem):
-#     gpus = tf.config.list_physical_devices('GPU')
-#     if gpus:
-#         # Restrict TensorFlow to only allocate a fraction of GPU memory
-#         try:
-#             for gpu in gpus:
-#                 tf.config.experimental.set_virtual_device_configuration(gpu,
-#                         [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=maxmem)])
-#         except RuntimeError as e:
-#             # Virtual devices must be set before GPUs have been initialized
-#             print(e)
-#
-# limitgpu(1024*3 + 512)
-
 # Constructing the image generator
 
 aug = ImageDataGenerator(rotation_range=20, zoom_range=0.15, width_shift_range=0.2,
