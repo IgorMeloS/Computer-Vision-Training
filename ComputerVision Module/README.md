@@ -8,7 +8,10 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
 
 - [compvis](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis) module
 
-  - [datsets](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/datasets) sub-module
+  - [callbacks]()sub-module
+    - [EpochCheckPoint]
+
+  - [datasets](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/datasets) sub-module
     - [SimpleDatasetLoader](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/datasets/simpledatasetoader.py) class
 
   - [io](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/io) sub-module
@@ -19,11 +22,13 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
     - [ANN](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/neuralnetwork.py) class
     - [cnns](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/ann/cnns) sub-sub-module
       - [AlexNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/alexNet.py) class
+      - [DeeperGoogLeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/deepergooglenet.py) class
       - [FCHeadNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/fcheadnet.py) class
       - [LeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/lenet.py) class
+      - [MiniGoogLeNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/cnns/minigooglenet.py) class
       - [MiniVGG](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/minivgg.py) class
       - [ShallowNet](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/ann/cnns/shallownet.py) class
-    - [lr](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/nn/lr) sub-module
+    - [lr](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/nn/lr) sub-sub-module
       - [LRFunc](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/nn/lr/learning_rate_functions.py) class
 
   - [preprocessing](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/preprocessing) sub-module
@@ -97,3 +102,12 @@ Using HDF5 datawriter and generator to manege the dataset.Implementation of Alex
   - [testing_alexnet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/testing_alexnet.ipynb)
   - [features_extraction.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/features_extraction.ipynb)
   - [training_on_features.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/10%20-%20Dogs%20vs%20Cats/training_on_features.ipynb)
+
+11 - [GoogLeNet](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/Pratical%20Examples/11%20-%20GoogLeNet)
+
+Training the Mini GoogLeNet on the CIFAR10 and, Deeper GoogLeNet on the Tiny ImageNet dataset. The results with the Mini GoogLeNet on CIFAR10 show an accuracy of 91% on training set, the best result until now, using this module. The results on Tiny ImageNet was also good, we've obtained an error rate of 0.55, a good result for the Tiny ImageNet challenge, not the best, but convicently. We also used the HDF5DatasetGenerator to read the images on the batch instead of allocate all images on the memory.
+
+  - [buildind_tiny_dataset.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/11%20-%20GoogLeNet/buildind_tiny_dataset.ipynb)
+  - [minigoogle_cifar10.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/11%20-%20GoogLeNet/minigoogle_cifar10.ipynb)
+  - [googlenet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/11%20-%20GoogLeNet/googlenet.ipynb)
+  - [evaluating.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/Pratical%20Examples/11%20-%20GoogLeNet/evaluating.ipynb)
