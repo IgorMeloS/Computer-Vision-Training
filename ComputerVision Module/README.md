@@ -8,8 +8,9 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
 
 - [compvis](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis) module
 
-  - [callbacks]()sub-module
-    - [EpochCheckPoint]
+  - [callbacks](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/callbacks)sub-module
+    - [EpochCheckPoint](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/callbacks/epochcheckpoint.py) class
+    - [TrainingMonitor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/callbacks/trainingmonitor.py)
 
   - [datasets](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/datasets) sub-module
     - [SimpleDatasetLoader](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/datasets/simpledatasetoader.py) class
@@ -38,6 +39,10 @@ I present the Computer Vision Module in the folder compvis. The module is a pipe
     - [PatchPreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/patchpreprocessor.py) class
     - [ResizeAR](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/resizear.py) class
     - [SimplePreprocessor](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/preprocessing/simplepreprocessor.py) class
+
+  - [utils](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/ComputerVision%20Module/compvis/utils) sub-module
+
+    - [rank5_accuracy](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/ComputerVision%20Module/compvis/utils/ranked.py) attribute
 
 
 ## The Practical Examples
