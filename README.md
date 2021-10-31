@@ -91,7 +91,7 @@ Image classification using Mini VGG network on Animals dataset. In this example,
 8 - [Feature extraction and HDF5 file](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/Practical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file)
 
 Image classification using transfer learning. We consider the Feature Extraction using the convolutional (the body of the network) layers from the VGG16 pre-trained model. To store all obtained features, we utilize a dataset writer outputting a HDF5 file. To realize the classification, we consider the Logistic Regression Model from Scikit-Learn.  The accuracy obtained for the Animals dataset on the test set was 99%, our best result until now. For the 17 Flowers the accuracy was 92%.
-  - [feature_extr_hdf5_VGG16_17flowers.ipynb]https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file/feature_extr_hdf5_VGG16_17flowers.ipynb)
+  - [feature_extr_hdf5_VGG16_17flowers.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file/feature_extr_hdf5_VGG16_17flowers.ipynb)
   - [feature_extr_hdf5_VGG16_animals.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/8%20-%20Feature%20extraction%20and%20HDF5%20file/feature_extr_hdf5_VGG16_animals.ipynb)
 
 9 - [Transfer Learning with Fine Tuning](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/Practical%20Examples/9%20-%20Transfer%20Learning%20with%20Fine%20Tuning)
