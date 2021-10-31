@@ -119,9 +119,22 @@ Training the Mini GoogLeNet on the CIFAR10 and, Deeper GoogLeNet on the Tiny Ima
   - [googlenet.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/11%20-%20GoogLeNet/googlenet.ipynb)
   - [evaluating.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/11%20-%20GoogLeNet/evaluating.ipynb)
 
+12 - [ResNet](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/Practical%20Examples/12%20-%20ResNet)
+
+Training ResNet architecture on CIFAR10 and Tiny ImageNet dataset. The accuracy on the validation set of CIFAR10 was 92.8%, the best result in this training folder. On the Tiny ImageNet the error rate using ResNet was 51%, showing that the model reached a good generalization, but the model is not well efficient to real world problems.
+
+  - [ResNet_cifar10.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/12%20-%20ResNet/ResNet_cifar10.ipynb)
+  - [ResNet_Tiny.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/12%20-%20ResNet/ResNet_Tiny.ipynb)
+  - [evaluating.ipynb](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/Practical%20Examples/12%20-%20ResNet/evaluating.ipynb)
 ## Datasets
 
 The examples considered here are trained with classical datasets as MNIST, CIFAR-10, CALTECH, Tiny ImageNet, COCO, Kaggle challenges datasets and others.
+
+## Usage
+
+If you want use the compvis module, Add the following line to your `~/.profile file.`
+
+`export PYTHONPATH=$PYTHONPATH:/path/you/want/to/add`
 
 ## References
 
